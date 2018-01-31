@@ -5,7 +5,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "insecure",
+  password: "BLT",
   database: "bamazon"
 });
 
@@ -25,7 +25,7 @@ var adminMenu = function() {
         "View Products for Sale",
         "View Low Inventory",
         "Add to Inventory",
-        "Add New Product",
+        "Add  Product",
         "Exit"
       ],
       name: "choice"
